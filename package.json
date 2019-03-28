@@ -1,0 +1,19 @@
+{
+  "name": "css_animation_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "all.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSysphe/CSS-Animation-Practice.git"
+  },
+  "author": "mars",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrSysphe/CSS-Animation-Practice/issues"
+  },
+  "homepage": "https://github.com/MrSysphe/CSS-Animation-Practice#readme"
+}

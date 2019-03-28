@@ -1,0 +1,93 @@
+$color:#38ecf8;
+$color_d:#383bf8;
+
+.navbar-toggler{
+    display:block;
+}
+#nav-panel{
+    background-color: #343a40!important;
+    color:#000;
+    z-index: 999;
+    position: absolute;
+    border:#ff293c solid 0px;
+    transition: .3s linear ;
+    width:0;
+    height:92%;
+}
+#nav-list{
+    display:none;
+    width:0;
+    transition: 1s linear;
+    list-style: none;
+}
+.n-o{
+    width:20%!important;
+    #nav-list{
+        display:block;
+        width:auto;
+        padding-left:16px;
+        a{
+            color:#fff;
+            text-decoration: none;
+        }
+        a:hover{
+            color:$color;
+        }
+    }
+}
+
+#banner_spot{
+    div{
+        margin: 0 5px;
+        width:15px;
+        height:15px;
+        background-color:#000;
+        border:#000 1px solid;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+#banner{
+    height:250px;
+    list-style: none;
+    li{
+        width:100%;
+        position: absolute;
+        margin-left: 100%;
+        display: none;
+        background-position: center;
+        background-size: cover;
+        h4{
+            position: absolute;
+            top:45%;
+            left:50%;
+        }
+    }
+    .active{
+        position: relative;
+        margin:0;
+        display: block;
+    }
+    
+    .red{
+        background-image: url(../imgs/1.jpg)
+    }
+    .blue{
+        background-image: url(../imgs/2.jpg)
+    }
+    .grey{
+        background-image: url(../imgs/3.jpg)
+    }
+}
+
+.row{
+    height:150px;
+}
+.col-2{
+    border:#eee solid 2px;
+}
+//import loading css
+@import "loading";
+@import "text";
+//loading css end
